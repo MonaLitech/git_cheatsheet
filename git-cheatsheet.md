@@ -128,6 +128,11 @@ du -sh .git                      # should be much smaller
 
 ---
 
+## Useful commands
+```bash
+git restore --staged .DS_Store 
+```
+
 ## Authentication note
 For HTTPS pushes, GitHub asks for credentials. Use a **Personal Access Token**
 (Settings → Developer settings → Personal access tokens) as the password — not
