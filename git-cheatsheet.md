@@ -133,7 +133,12 @@ du -sh .git                      # should be much smaller
 git restore --staged .DS_Store 
 ```
 
+```bah
+git commit --amend
+```
+
 ## Authentication note
 For HTTPS pushes, GitHub asks for credentials. Use a **Personal Access Token**
 (Settings → Developer settings → Personal access tokens) as the password — not
 your account password. Or set up SSH and use `git@github.com:USERNAME/REPO.git`.
+
