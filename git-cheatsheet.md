@@ -136,6 +136,8 @@ git restore --staged .DS_Store
 ```bah
 git commit --amend
 ```
+##restore deleted files
+git restore notebooks/tuner_results
 
 ## Authentication note
 For HTTPS pushes, GitHub asks for credentials. Use a **Personal Access Token**
