@@ -138,6 +138,10 @@ git commit --amend
 ```
 ##restore deleted files
 git restore notebooks/tuner_results
+##add all deleted files##
+On MAC the zsh shell can not complete the glob when the files are deleted but git can, since it has the history via indexing.
+Therefore to add all of them use quotes
+```git add 'production_model/demo*' ```
 
 ## Authentication note
 For HTTPS pushes, GitHub asks for credentials. Use a **Personal Access Token**
