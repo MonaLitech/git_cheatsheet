@@ -136,7 +136,7 @@ git restore --staged .DS_Store
 ```bah
 git commit --amend
 ```
-##restore deleted files##
+### Restore deleted files
 git restore notebooks/tuner_results
 ##add all deleted files##
 On MAC the zsh shell can not complete the glob when the files are deleted but git can, since it has the history via indexing.
