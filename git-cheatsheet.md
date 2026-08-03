@@ -58,6 +58,14 @@ git push
 - `fatal: pathspec '...' did not match any files` = it's already untracked (nothing to do).
 
 ---
+## Create new branch with new switch tool
+This command carries the local modifications to the new branch
+``` 
+git switch -c full_model_comparison
+
+```
+
+---
 
 ## Check what Git is tracking / what's large
 
